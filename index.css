@@ -1,0 +1,165 @@
+body {
+	margin: 0px;
+	background-color: black;
+	color: white;
+}
+
+/*NAVBAR*/
+
+.navbar {
+	/*background-color: white;*/
+	display: flex;
+	color: white;
+	height: 130px;
+	justify-content: space-around;
+}
+
+.logo {
+	font-family: 'Nabla', cursive;
+	padding-right: 5%;
+	padding-left: 5%;
+	font-size: 40px;
+	font-weight: bold;
+	align-self: center;
+	transition: font-size 0.6s ease-in-out 0s;
+}
+
+.logo:hover {
+	cursor: default;
+	font-size: 45px;
+}
+
+.empty {
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+.resume {
+	font-size: 40px;
+	align-self: center;
+	font-family: 'Oswald', sans-serif;
+}
+
+.resume:hover {
+	cursor: default;
+}
+
+.gh {
+	align-self: center;
+}
+
+.lin {
+	padding-right: 140px;
+	align-self: center;
+}
+
+@media screen and (max-width: 1800px) {
+	.navbar {
+		/*background-color: white;*/
+		display: flex;
+		color: white;
+		height: 150px;
+		justify-content: normal;
+	}
+
+	.gh, .lin, .resume {
+		padding-left: 75px;
+		padding-right: 75px;
+	}
+
+	.logo {
+		font-family: 'Nabla', cursive;
+		padding-right: 100px;
+		padding-left: 100px;
+		font-size: 40px;
+		font-weight: bold;
+		align-self: center;
+		/*transition: font-size 0.6s ease-in-out 0s;*/
+	}
+}
+
+/*CONTAINER 1 - I create playful experiences*/
+
+.container1 {
+	display: flex;
+	align-self: center;
+}
+
+.content1 {
+	align-self: center;
+	font-size: 120px;
+	padding-left: 10%;
+	padding-right: 10%;
+	font-family: 'Merriweather', serif;
+}
+
+.content1:hover {
+	cursor: default;
+}
+
+.playful {
+	color: #f84459;
+	animation: colorChange 5s linear infinite;
+}
+
+@keyframes colorChange {
+	0% {
+		background-color: #45FFCA;
+	}
+	25% {
+		background-color: #FEFFAC;
+	}
+	50% {
+		background-color: #FFB6D9;
+	}
+	75% {
+		background-color: #D67BFF;
+	}
+	100% {
+		background-color: #45FFCA;
+	}
+}
+
+.image-2 {
+	display: flex;
+}
+
+.image-2-pic {
+	padding: 10%;
+	padding-left: 70%;
+	align-self: center;
+}
+
+/*CONTAINER 2 - Siddesh Todi/Student*/
+
+.container2 {
+	display: flex;
+	font-size: 40px;
+	padding-left: 10%;
+}
+
+/*Project with down sign icon*/
+
+.container3 {
+	/*display: flex;*/
+	/*justify-content: center;*/
+}
+
+.proj {
+	display: flex;
+	/*margin-left: 48.4%;*/
+	font-size: 35px;
+	justify-content: center;
+}
+
+.dwn {
+	display: flex;
+	justify-content: center;
+	/*margin-left: 50%;*/
+}
+
+@media screen and (max-width: 1500px) {
+	.proj, .dwn {
+		margin-left: 600px;
+	}
+}
