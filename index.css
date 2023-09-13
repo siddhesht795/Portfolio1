@@ -62,9 +62,19 @@ body {
 		justify-content: normal;
 	}
 
-	.gh, .lin, .resume {
+	.empty {
+		margin-left: 40%;
+		margin-right: 40%;
+	}
+
+	.gh, .resume {
 		padding-left: 75px;
 		padding-right: 75px;
+	}
+
+	.lin {
+		padding-left: 75px;
+		margin-right: 0px;
 	}
 
 	.logo {
@@ -160,6 +170,6 @@ body {
 
 @media screen and (max-width: 1500px) {
 	.proj, .dwn {
-		margin-left: 600px;
+		margin-left: 700px;
 	}
 }
