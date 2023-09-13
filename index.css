@@ -88,6 +88,13 @@ body {
 	}
 }
 
+@media screen and (max-width: 1500px) {
+	.empty {
+		margin-left: 45%;
+		margin-right: 45%;
+	}
+}
+
 /*CONTAINER 1 - I create playful experiences*/
 
 .container1 {
