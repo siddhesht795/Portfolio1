@@ -1,4 +1,5 @@
 body {
+	/*overflow-x: hidden;*/
 	margin: 0px;
 	background-color: black;
 	color: white;
@@ -62,11 +63,6 @@ body {
 		justify-content: normal;
 	}
 
-	.empty {
-		margin-left: 45%;
-		margin-right: 45%;
-	}
-
 	.gh, .resume {
 		padding-left: 75px;
 		padding-right: 75px;
@@ -74,7 +70,7 @@ body {
 
 	.lin {
 		padding-left: 75px;
-		margin-right: 0px;
+		margin-right: 50px;
 	}
 
 	.logo {
@@ -88,7 +84,7 @@ body {
 	}
 }
 
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 900px) {
 	.empty {
 		margin-left: 45%;
 		margin-right: 45%;
@@ -115,11 +111,23 @@ body {
 }
 
 .playful {
-	color: #f84459;
-	animation: colorChange 5s linear infinite;
+	/*color: #f84459;*/
+	/*animation: colorChange 5s linear infinite;*/
+	background-image: url(https://images.unsplash.com/photo-1579546929662-711aa81148cf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y29sb3JmdWwlMjB3YWxscGFwZXJ8ZW58MHx8MHx8fDA%3D&w=1000&q=80);
+	background-size: cover;
+	background-position: center;
+	background-clip: text;
+	-webkit-background-clip: text;
+	color: transparent;
 }
 
-@keyframes colorChange {
+/*@media screen and (max-width:410px) {
+	.content1 {
+
+	}
+}*/
+
+/*@keyframes colorChange {
 	0% {
 		background-color: #45FFCA;
 	}
@@ -135,7 +143,7 @@ body {
 	100% {
 		background-color: #45FFCA;
 	}
-}
+}*/
 
 .image-2 {
 	display: flex;
@@ -153,6 +161,7 @@ body {
 	display: flex;
 	font-size: 40px;
 	padding-left: 10%;
+	/*width: 100%;*/
 }
 
 @media screen and (max-width:410px) {
