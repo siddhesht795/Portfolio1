@@ -153,7 +153,6 @@ body {
 	display: flex;
 	font-size: 40px;
 	padding-left: 10%;
-	width: 100%;
 }
 
 @media screen and (max-width:410px) {
