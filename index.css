@@ -5,6 +5,10 @@ body {
 	color: white;
 }
 
+.links {
+	text-decoration: none;
+}
+
 /*NAVBAR*/
 
 .navbar {
@@ -42,7 +46,7 @@ body {
 }
 
 .resume:hover {
-	cursor: default;
+	cursor: pointer;
 }
 
 .gh {
@@ -120,12 +124,6 @@ body {
 	-webkit-background-clip: text;
 	color: transparent;
 }
-
-/*@media screen and (max-width:410px) {
-	.content1 {
-
-	}
-}*/
 
 /*@keyframes colorChange {
 	0% {
