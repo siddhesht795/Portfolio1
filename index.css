@@ -189,6 +189,6 @@ body {
 
 @media screen and (max-width: 1500px) {
 	.proj, .dwn {
-		margin-left: 700px;
+		margin-left: 45%;
 	}
 }
