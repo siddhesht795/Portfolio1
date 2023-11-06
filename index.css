@@ -104,9 +104,9 @@ body {
 
 /*Project with down sign icon*/
 
-.container3 {	
-	display: flex;
+.container3 {
 	width: 100vw;
+	display: flex;
 	justify-content: center;
 	flex-direction: column;
 }
@@ -126,12 +126,30 @@ body {
 
 /*MEDIA QUERIES*/
 
-/* @media (max-width: 1265px) {
-	.navbar {
-		display: flex;
-		color: white;
-		height: 130px;
-		width: 105vw;
-		justify-content: space-around;
+@media (max-width: 1240px) {
+	.lin {
+		align-self: center;
 	}
-} */
+
+	.content1 {
+	    grid-column-start: 1;
+	    align-self: center;
+	    font-size: 6rem;
+	    padding-left: 10%;
+	    padding-right: 10%;
+	    font-family: 'Merriweather', serif;
+	}
+
+	.image-2-pic {
+    	width: 70%;
+    	padding: 10% 20%;
+    	align-self: center;
+	}
+
+	.container3 {
+	    width: 105vw;
+	    display: flex;
+	    justify-content: center;
+	    flex-direction: column;
+	}
+}
