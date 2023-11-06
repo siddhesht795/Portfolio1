@@ -158,10 +158,12 @@ body {
 	.container1 {
 		display: grid;
 		grid-template-rows: 1fr 1fr;
+		grid-template-columns: 1fr;
 	}
 
 	.empty{
-		padding: 0%;
+		margin-left: 0;
+		margin-right: 0;
 	}
 
 	.content1 {
