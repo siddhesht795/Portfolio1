@@ -57,11 +57,12 @@ body {
 /*CONTAINER 1 - I create playful experiences*/
 
 .container1 {
-	display: flex;
-	align-self: center;
+	display: grid;
+	grid-template-columns: 65% 35%;
 }
 
 .content1 {
+	grid-column-start: 1;
 	align-self: center;
 	font-size: 7.2rem;
 	padding-left: 10%;
@@ -88,7 +89,7 @@ body {
 
 .image-2-pic {
 	padding: 10%;
-	padding-left: 70%;
+	/*padding-left: 70%;*/
 	align-self: center;
 }
 
@@ -104,6 +105,7 @@ body {
 /*Project with down sign icon*/
 
 .container3 {
+	width: 107vw;
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
@@ -124,7 +126,7 @@ body {
 
 /*MEDIA QUERIES*/
 
-@media (max-width: 1680px) {
+/*@media (max-width: 1680px) {
 	.navbar {
 		display: flex;
 		color: white;
@@ -142,4 +144,4 @@ body {
 		width: 107vw;
 		justify-content: space-around;
 	}
-}
+}*/
