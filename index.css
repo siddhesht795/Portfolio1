@@ -161,12 +161,12 @@ body {
 	}
 
 	.content1 {
-	    grid-row-start: 1;
-	    align-self: center;
-	    font-size: 5rem;
-	    padding-left: 10%;
-	    padding-right: 10%;
-	    font-family: 'Merriweather', serif;
+		grid-row-start: 1;
+	    	align-self: center;
+	    	font-size: 5rem;
+	    	padding-left: 10%;
+	    	padding-right: 10%;
+	    	font-family: 'Merriweather', serif;
 	}
 
 	.image-2 {
