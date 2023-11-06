@@ -105,7 +105,7 @@ body {
 /*Project with down sign icon*/
 
 .container3 {
-	width: 107vw;
+/* 	width: 107vw; */
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
