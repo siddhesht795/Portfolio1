@@ -65,7 +65,7 @@ body {
 .content1 {
 	grid-column-start: 1;
 	align-self: center;
-	font-size: 6.5vw;
+	font-size: 5vw;
 	padding-left: 10%;
 	padding-right: 10%;
 	font-family: 'Merriweather', serif;
@@ -89,8 +89,8 @@ body {
 }
 
 .image-2-pic {
-	padding: 10% 14%;
-	width: 50%;
+	padding: 11% 0%;
+	width: 70%;
 	align-self: center;
 }
 
@@ -98,8 +98,8 @@ body {
 
 .container2 {
 	display: flex;
-	font-size: 3.3vw;
-	padding-left: 9%;
+	font-size: 2vw;
+	/* padding-left: 9%; */
 	/*width: 100%;*/
 }
 
@@ -115,7 +115,7 @@ body {
 .proj {
 	display: flex;
 	/*margin-left: 48.4%;*/
-	font-size: 2.4rem;
+	font-size: 1.8rem;
 	justify-content: center;
 }
 
@@ -123,6 +123,12 @@ body {
 	display: flex;
 	justify-content: center;
 	/*margin-left: 50%;*/
+}
+
+.dwn img{
+	width: 2.5vw;
+	position: relative;
+	top: -1vh;
 }
 
 @media(max-width: 1240px){
@@ -239,7 +245,7 @@ body {
 		display: flex;
 		font-size: 5.4vw;
 		justify-content: center;
-		/*width: 100%;*/
+		padding-left: 0%;
 	}
 
 	/*Project with down sign icon*/
@@ -253,7 +259,6 @@ body {
 
 	.proj {
 		display: flex;
-		/*margin-left: 48.4%;*/
 		font-size: 4.5vw;
 		justify-content: center;
 	}
