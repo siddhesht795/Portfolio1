@@ -211,7 +211,7 @@ body {
 		grid-row-start: 2;
 		font-size: 7.5vw;
 		/* display: flex; */
-		align-content: center;
+		text-align: center;
 		font-family: 'Merriweather', serif;
 	}
 
@@ -234,8 +234,8 @@ body {
 	}
 
 	.image-2-pic {
-		padding: 10% 14%;
-		width: 40vw;
+		padding: 10% 0%;
+		width: 60vw;
 		align-self: center;
 	}
 
