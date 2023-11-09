@@ -173,8 +173,18 @@ body {
 		cursor: pointer;
 	}
 
-	.gh {
+	.gh{
 		align-self: center;
+	}
+	
+	.gh img{
+		align-self: center;
+		width: 90%;
+	}
+
+	.lin img{
+		align-self: center;
+		width: 90%;
 	}
 
 	.lin {
