@@ -2,6 +2,7 @@ body {
 	margin: 0px;
 	background-color: black;
 	color: white;
+	overflow-x: hidden;
 }
 
 /*NAVBAR*/
@@ -64,7 +65,7 @@ body {
 .content1 {
 	grid-column-start: 1;
 	align-self: center;
-	font-size: 7.2rem;
+	font-size: 6.5vw;
 	padding-left: 10%;
 	padding-right: 10%;
 	font-family: 'Merriweather', serif;
